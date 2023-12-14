@@ -3,7 +3,7 @@
     --secondary-color: #4d0eae !important;
 }
 
-#modal body {
+#modal div {
     font-family: Arial, sans-serif !important;
     background-color: black !important;
     color: #fff !important;
@@ -66,7 +66,7 @@
     display: none !important;
 }
 
-#modal body {
+#modal div {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
