@@ -1,0 +1,487 @@
+#modal:root {
+    --primary-color: #d846a5;
+    --secondary-color: #4d0eae;
+}
+
+#modal body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+#modal .success-page {
+    background-color: black;
+}
+
+#modal .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#modal #uploadContainer {
+    min-width: 400px;
+}
+
+#modal h1 {
+    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 70px;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+#modal p {
+    color: #888;
+}
+
+#modal .muted {
+    color: #888;
+}
+
+#modal .bigger-text {
+    color: #888;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#modal .dropzone {
+    border: 2px dashed #ccccccaf;
+    border-radius: 12px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+#modal .dropzone:hover {
+    border-color: var(--primary-color);
+}
+
+#modal #fileInput {
+    display: none;
+}
+
+#modal body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#modal .button {
+    padding: 20px 40px;
+    border-radius: 8px;
+    margin: 12px auto;
+}
+
+#modal .uploadButton {
+    display: none;
+    border: none;
+    color: #fff;
+    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color));
+    cursor: pointer;
+}
+
+#modal .uploadButton:hover {
+    /* background: linear-gradient(to bottom right, --secondary-color, --primary-color);
+    /* Button gradient on hover */
+}
+
+#modal .gradientButton {
+    border: none;
+    color: #fff;
+    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color));
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#modal .gradientButton:hover {
+    /* background: linear-gradient(to bottom right, --secondary-color, --primary-color);
+    /* Button gradient on hover */
+}
+
+#modal #audioPlayer1,
+#modal #audioPlayer2 {
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#modal #checkout2 {
+    display: block;
+    position: relative;
+    z-index: 1;
+    margin-top: 16px;
+}
+
+#modal #uploadProgress {
+    width: 100%;
+    height: 15px;
+    margin-top: 10px;
+}
+
+#modal #statusMessage {
+    margin-top: 10px;
+}
+
+#modal #loadingScreen {
+    display: none;
+    text-align: center;
+}
+
+#modal #loadingText {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#modal .loading-text-container {
+    text-align: center;
+}
+
+#modal .loading-icon {
+    display: inline-block;
+    margin: auto;
+    margin-top: 10px;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #333;
+    border-top: 2px solid var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+#modal .loading-spinner {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #333;
+    border-top: 2px solid var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+#modal #loading-spinner {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#modal .padding-top-med {
+    padding-top: 6px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#modal #mobileWarning {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #modal #mobileWarning {
+        display: block;
+    }
+}
+
+#modal .mobileWarning {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #modal .mobile-warning {
+        display: block;
+    }
+}
+
+#modal .footer-div {
+    padding-top: 200px;
+}
+
+#modal footer {
+    color: #888;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#modal footer a {
+    color: #888;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#modal footer a:hover {
+    text-decoration: underline;
+}
+
+#modal .background-glow {
+    z-index: -99;
+    opacity: .5;
+    background-image: url(https://assets-global.website-files.com/62d6b69…/62d6b69…_BG%20SHAPES%202.png);
+    background-position: 50% 0;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+#modal .beta-label {
+    margin-top: 0px;
+}
+
+#modal .radio_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 220px;
+    height: 50px;
+    border-radius: 9999px;
+    box-shadow: none;
+}
+
+#modal audio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#modal input[type="radio"] {
+    appearance: none;
+    display: none;
+}
+
+#modal label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border-radius: 9999px;
+    overflow: hidden;
+    transition: linear 0.3s;
+    color: #6e6e6edd;
+}
+
+#modal input[type="radio"]:checked+label {
+    background-image: linear-gradient(296deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    transition: 0.3s;
+}
+
+#modal .transparent {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#modal .progress-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#modal .progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    transition: width 1s ease-in-out;
+}
+
+#modal .muted-link {
+    color: #888;
+}
+
+#modal .reuploadButton {
+    text-align: center !important;
+    align-self: center;
+    background: none;
+    text-decoration: none;
+    border: 1px solid #888;
+    color: #888;
+}
+
+#modal .downloadButton {
+    text-align: center !important;
+    align-self: center;
+    text-decoration: none;
+}
+
+#modal #form-container {
+    max-width: 300px;
+    margin: 0px auto;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+#modal #form-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#modal #marketingForm input,
+#modal #marketingForm label {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#modal #marketingForm button {
+    cursor: pointer;
+    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color));
+    color: #fff;
+}
+
+#modal #marketingForm input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 2px;
+    width: 15px;
+}
+
+#modal #marketingForm input::placeholder {
+    color: #888;
+}
+
+#modal #marketingForm input:focus::placeholder {
+    color: transparent;
+}
+
+#modal .checkbox-group {
+    display: flex;
+    align-items: start;
+}
+
+#modal .checkbox-label {
+    display: flex;
+    align-items: start;
+    height: fit-content;
+    margin-bottom: 0px;
+}
+
+#modal .checkbox-text {
+    text-align: start;
+    font-size: 15px;
+    overflow: visible;
+}
+
+#modal #mastering-complete {
+    font-size: 35px !important;
+    margin-bottom: 10px !important;
+    margin-top: 0px !important;
+}
+
+#modal #modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 20px;
+    width: 90vw;
+    max-width: 800px;
+    height: 90vh;
+    max-height: 90vh;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#modal #modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#modal #close-btn {
+    cursor: pointer;
+    color: white !important;
+    font-size: 40px
+}
+
+#modal #modalText {
+    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 50px;
+    margin: 4px;
+    padding-top: 10px;
+}
+
+#modal #stickyDiv {
+    position: fixed;
+    background-color: #fff;
+    color: #000;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    #modal #stickyDiv {
+        width: 95%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    #modal #closeBtn {
+        font-size: 20px;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+#modal #closeBtn {
+    font-size: 20px;
+    cursor: pointer;
+}
