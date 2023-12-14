@@ -1,91 +1,91 @@
 #modal:root {
-    --primary-color: #d846a5;
-    --secondary-color: #4d0eae;
+    --primary-color: #d846a5 !important;
+    --secondary-color: #4d0eae !important;
 }
 
 #modal body {
-    font-family: Arial, sans-serif;
-    background-color: black;
-    color: #fff;
-    text-align: center;
+    font-family: Arial, sans-serif !important;
+    background-color: black !important;
+    color: #fff !important;
+    text-align: center !important;
 }
 
 #modal .success-page {
-    background-color: black;
+    background-color: black !important;
 }
 
 #modal .container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    padding-top: 0px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 400px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+    padding-top: 0px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
 }
 
 #modal #uploadContainer {
-    min-width: 400px;
+    min-width: 400px !important;
 }
 
 #modal h1 {
-    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-size: 70px;
-    margin: 0px;
-    margin-top: 50px;
+    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color)) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+    font-size: 70px !important;
+    margin: 0px !important;
+    margin-top: 50px !important;
 }
 
 #modal p {
-    color: #888;
+    color: #888 !important;
 }
 
 #modal .muted {
-    color: #888;
+    color: #888 !important;
 }
 
 #modal .bigger-text {
-    color: #888;
-    font-size: 24px;
-    margin-bottom: 5px;
+    color: #888 !important;
+    font-size: 24px !important;
+    margin-bottom: 5px !important;
 }
 
 #modal .dropzone {
-    border: 2px dashed #ccccccaf;
-    border-radius: 12px;
-    padding: 30px;
-    cursor: pointer;
+    border: 2px dashed #ccccccaf !important;
+    border-radius: 12px !important;
+    padding: 30px !important;
+    cursor: pointer !important;
 }
 
 #modal .dropzone:hover {
-    border-color: var(--primary-color);
+    border-color: var(--primary-color) !important;
 }
 
 #modal #fileInput {
-    display: none;
+    display: none !important;
 }
 
 #modal body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh !important;
+    margin: 0 !important;
 }
 
 #modal .button {
-    padding: 20px 40px;
-    border-radius: 8px;
-    margin: 12px auto;
+    padding: 20px 40px !important;
+    border-radius: 8px !important;
+    margin: 12px auto !important;
 }
 
 #modal .uploadButton {
-    display: none;
-    border: none;
-    color: #fff;
-    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color));
-    cursor: pointer;
+    display: none !important;
+    border: none !important;
+    color: #fff !important;
+    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color)) !important;
+    cursor: pointer !important;
 }
 
 #modal .uploadButton:hover {
@@ -94,11 +94,11 @@
 }
 
 #modal .gradientButton {
-    border: none;
-    color: #fff;
-    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color));
-    cursor: pointer;
-    text-decoration: none;
+    border: none !important;
+    color: #fff !important;
+    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color)) !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
 }
 
 #modal .gradientButton:hover {
@@ -108,294 +108,294 @@
 
 #modal #audioPlayer1,
 #modal #audioPlayer2 {
-    display: block;
-    position: relative;
-    margin-bottom: 10px;
+    display: block !important;
+    position: relative !important;
+    margin-bottom: 10px !important;
 }
 
 #modal #checkout2 {
-    display: block;
-    position: relative;
-    z-index: 1;
-    margin-top: 16px;
+    display: block !important;
+    position: relative !important;
+    z-index: 1 !important;
+    margin-top: 16px !important;
 }
 
 #modal #uploadProgress {
-    width: 100%;
-    height: 15px;
-    margin-top: 10px;
+    width: 100% !important;
+    height: 15px !important;
+    margin-top: 10px !important;
 }
 
 #modal #statusMessage {
-    margin-top: 10px;
+    margin-top: 10px !important;
 }
 
 #modal #loadingScreen {
-    display: none;
-    text-align: center;
+    display: none !important;
+    text-align: center !important;
 }
 
 #modal #loadingText {
-    font-size: 24px;
-    margin-top: 20px;
+    font-size: 24px !important;
+    margin-top: 20px !important;
 }
 
 #modal .loading-text-container {
-    text-align: center;
+    text-align: center !important;
 }
 
 #modal .loading-icon {
-    display: inline-block;
-    margin: auto;
-    margin-top: 10px;
-    width: 24px;
-    height: 24px;
-    border: 2px solid #333;
-    border-top: 2px solid var(--primary-color);
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
+    display: inline-block !important;
+    margin: auto !important;
+    margin-top: 10px !important;
+    width: 24px !important;
+    height: 24px !important;
+    border: 2px solid #333 !important;
+    border-top: 2px solid var(--primary-color) !important;
+    border-radius: 50% !important;
+    animation: spin 1s linear infinite !important;
 }
 
 #modal .loading-spinner {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-top: 10px;
-    width: 24px;
-    height: 24px;
-    border: 2px solid #333;
-    border-top: 2px solid var(--primary-color);
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
+    display: flex !important;
+    justify-content: center !important;
+    margin: auto !important;
+    margin-top: 10px !important;
+    width: 24px !important;
+    height: 24px !important;
+    border: 2px solid #333 !important;
+    border-top: 2px solid var(--primary-color) !important;
+    border-radius: 50% !important;
+    animation: spin 1s linear infinite !important;
 }
 
 #modal #loading-spinner {
-    display: flex;
-    justify-content: center;
-    margin: auto;
+    display: flex !important;
+    justify-content: center !important;
+    margin: auto !important;
 }
 
 #modal .padding-top-med {
-    padding-top: 6px;
+    padding-top: 6px !important;
 }
 
 @keyframes spin {
     0% {
-        transform: rotate(0deg);
+        transform: rotate(0deg) !important;
     }
 
     100% {
-        transform: rotate(360deg);
+        transform: rotate(360deg) !important;
     }
 }
 
 #modal #mobileWarning {
-    display: none;
+    display: none !important;
 }
 
 @media (max-width: 768px) {
     #modal #mobileWarning {
-        display: block;
+        display: block !important;
     }
 }
 
 #modal .mobileWarning {
-    display: none;
+    display: none !important;
 }
 
 @media (max-width: 768px) {
     #modal .mobile-warning {
-        display: block;
+        display: block !important;
     }
 }
 
 #modal .footer-div {
-    padding-top: 200px;
+    padding-top: 200px !important;
 }
 
 #modal footer {
-    color: #888;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    color: #888 !important;
+    text-align: center !important;
+    padding: 20px !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100% !important;
 }
 
 #modal footer a {
-    color: #888;
-    text-decoration: none;
-    margin: 0 10px;
+    color: #888 !important;
+    text-decoration: none !important;
+    margin: 0 10px !important;
 }
 
 #modal footer a:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 #modal .background-glow {
-    z-index: -99;
-    opacity: .5;
-    background-image: url(https://assets-global.website-files.com/62d6b69…/62d6b69…_BG%20SHAPES%202.png);
-    background-position: 50% 0;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    position: fixed;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    z-index: -99 !important;
+    opacity: .5 !important;
+    background-image: url(https://assets-global.website-files.com/62d6b69…/62d6b69…_BG%20SHAPES%202.png) !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    position: fixed !important;
+    top: 0% !important;
+    bottom: 0% !important;
+    left: 0% !important;
+    right: 0% !important;
 }
 
 #modal .beta-label {
-    margin-top: 0px;
+    margin-top: 0px !important;
 }
 
 #modal .radio_container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-    width: 220px;
-    height: 50px;
-    border-radius: 9999px;
-    box-shadow: none;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    background-color: white !important;
+    width: 220px !important;
+    height: 50px !important;
+    border-radius: 9999px !important;
+    box-shadow: none !important;
 }
 
 #modal audio {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
 }
 
 #modal input[type="radio"] {
-    appearance: none;
-    display: none;
+    appearance: none !important;
+    display: none !important;
 }
 
 #modal label {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: inherit;
-    width: 80px;
-    height: 40px;
-    text-align: center;
-    border-radius: 9999px;
-    overflow: hidden;
-    transition: linear 0.3s;
-    color: #6e6e6edd;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: inherit !important;
+    width: 80px !important;
+    height: 40px !important;
+    text-align: center !important;
+    border-radius: 9999px !important;
+    overflow: hidden !important;
+    transition: linear 0.3s !important;
+    color: #6e6e6edd !important;
 }
 
 #modal input[type="radio"]:checked+label {
-    background-image: linear-gradient(296deg, var(--primary-color), var(--secondary-color));
-    color: white;
-    transition: 0.3s;
+    background-image: linear-gradient(296deg, var(--primary-color), var(--secondary-color)) !important;
+    color: white !important;
+    transition: 0.3s !important;
 }
 
 #modal .transparent {
-    background-color: transparent;
-    box-shadow: none;
+    background-color: transparent !important;
+    box-shadow: none !important;
 }
 
 #modal .progress-container {
-    width: 100%;
-    background-color: #f1f1f1;
-    height: 20px;
-    margin-top: 10px;
-    display: flex;
-    overflow: hidden;
-    border-radius: 5px;
+    width: 100% !important;
+    background-color: #f1f1f1 !important;
+    height: 20px !important;
+    margin-top: 10px !important;
+    display: flex !important;
+    overflow: hidden !important;
+    border-radius: 5px !important;
 }
 
 #modal .progress-bar {
-    height: 100%;
-    width: 0;
-    background-color: var(--primary-color);
-    border-radius: 5px;
-    transition: width 1s ease-in-out;
+    height: 100% !important;
+    width: 0 !important;
+    background-color: var(--primary-color) !important;
+    border-radius: 5px !important;
+    transition: width 1s ease-in-out !important;
 }
 
 #modal .muted-link {
-    color: #888;
+    color: #888 !important;
 }
 
 #modal .reuploadButton {
     text-align: center !important;
-    align-self: center;
-    background: none;
-    text-decoration: none;
-    border: 1px solid #888;
-    color: #888;
+    align-self: center !important;
+    background: none !important;
+    text-decoration: none !important;
+    border: 1px solid #888 !important;
+    color: #888 !important;
 }
 
 #modal .downloadButton {
     text-align: center !important;
-    align-self: center;
-    text-decoration: none;
+    align-self: center !important;
+    text-decoration: none !important;
 }
 
 #modal #form-container {
-    max-width: 300px;
-    margin: 0px auto;
-    padding: 0px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    color: #fff;
+    max-width: 300px !important;
+    margin: 0px auto !important;
+    padding: 0px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+    color: #fff !important;
 }
 
 #modal #form-container h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 24px !important;
+    margin-bottom: 20px !important;
 }
 
 #modal #marketingForm input,
 #modal #marketingForm label {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 10px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    margin-bottom: 10px !important;
 }
 
 #modal #marketingForm button {
-    cursor: pointer;
-    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color));
-    color: #fff;
+    cursor: pointer !important;
+    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color)) !important;
+    color: #fff !important;
 }
 
 #modal #marketingForm input[type="checkbox"] {
-    margin-right: 10px;
-    margin-top: 2px;
-    width: 15px;
+    margin-right: 10px !important;
+    margin-top: 2px !important;
+    width: 15px !important;
 }
 
 #modal #marketingForm input::placeholder {
-    color: #888;
+    color: #888 !important;
 }
 
 #modal #marketingForm input:focus::placeholder {
-    color: transparent;
+    color: transparent !important;
 }
 
 #modal .checkbox-group {
-    display: flex;
-    align-items: start;
+    display: flex !important;
+    align-items: start !important;
 }
 
 #modal .checkbox-label {
-    display: flex;
-    align-items: start;
-    height: fit-content;
-    margin-bottom: 0px;
+    display: flex !important;
+    align-items: start !important;
+    height: fit-content !important;
+    margin-bottom: 0px !important;
 }
 
 #modal .checkbox-text {
-    text-align: start;
-    font-size: 15px;
-    overflow: visible;
+    text-align: start !important;
+    font-size: 15px !important;
+    overflow: visible !important;
 }
 
 #modal #mastering-complete {
@@ -405,83 +405,74 @@
 }
 
 #modal #modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: black;
-    padding: 20px;
-    width: 90vw;
-    max-width: 800px;
-    height: 90vh;
-    max-height: 90vh;
-    text-align: center;
-    border-radius: 8px;
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    background-color: black !important;
+    padding: 20px !important;
+    width: 90vw !important;
+    max-width: 800px !important;
+    height: 90vh !important;
+    max-height: 90vh !important;
+    text-align: center !important;
+    border-radius: 8px !important;
 }
 
 #modal #modal-overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.1);
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
+    display: none !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    justify-content: center !important;
+    align-items: center !important;
+    z-index: 999 !important;
 }
 
 #modal #close-btn {
-    cursor: pointer;
+    cursor: pointer !important;
     color: white !important;
-    font-size: 40px
+    font-size: 40px !important;
 }
 
 #modal #modalText {
-    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-size: 50px;
-    margin: 4px;
-    padding-top: 10px;
+    background: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color)) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+    font-size: 50px !important;
+    margin: 4px !important;
+    padding-top: 10px !important;
 }
 
 #modal #stickyDiv {
-    position: fixed;
-    background-color: #fff;
-    color: #000;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
-    border-top-right-radius: 10px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 200px;
-    font-weight: bold;
+    position: fixed !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    padding: 10px !important;
+    border-top-right-radius: 10px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 200px !important;
+    font-weight: bold !important;
 }
 
 @media (max-width: 600px) {
     #modal #stickyDiv {
-        width: 95%;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        width: 95% !important;
+        border-top-left-radius: 10px !important;
+        border-top-right-radius: 10px !important;
     }
 
     #modal #closeBtn {
-        font-size: 20px;
-        cursor: pointer;
-        position: absolute;
-        right: 10px;
-        top: 50%;
-        transform: translateY(-50%);
+        font-size: 20px !important;
+        cursor: pointer !important;
     }
-}
-
-#modal #closeBtn {
-    font-size: 20px;
-    cursor: pointer;
 }
